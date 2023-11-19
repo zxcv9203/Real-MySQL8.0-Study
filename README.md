@@ -1,5 +1,6 @@
 # Real MySQL 스터디 레포
 
+![realmysql](image/realmysql.png)
 ## 진행방식
 
 - 각 스터디원이 책을 읽고 정리한 내용을 PR로 날린다.
