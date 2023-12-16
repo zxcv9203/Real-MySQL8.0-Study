@@ -204,7 +204,7 @@ LRU Flush는 버퍼 풀에서의 공간이 부족할 때 발생하는 또 다른
 - 쓰기 작업이 실패하는 경우 Double Write Buffer의 데이터를 사용하여 원래의 페이지를 복구한다.
 
 ### Undo 로그
-- 데이터의 변경 작업이 발생하는 경우, 해당 변경 사항 이저느이 데이터 상태를 기록
+- 데이터의 변경 작업이 발생하는 경우, 해당 변경 사항 이전의 데이터 상태를 기록
 - READ COMMITTED와 REPEATABLE READ에서 유효
 - Undo 로그들이 저장되는 공간을 Undo Tablespace라고 한다.
 - Rollback segment라는 구조로 저장. 동시에 여러 Undo 로그가 여기에 저장됌
